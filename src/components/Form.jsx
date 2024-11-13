@@ -29,7 +29,7 @@ export default function Form() {
       <>
         <div className='flex flex-col gap-2'>
           <p>In which city is there a billboard that turns air into drinkable water?</p>
-          <form className='flex' onSubmit={handleSubmit}>
+          <form className='flex gap-2' onSubmit={handleSubmit}>
             <textarea
               value={answer}
               onChange={handleTextareaChange}
